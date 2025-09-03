@@ -33,7 +33,7 @@ It combines structured GWAS data with PubMed abstracts and uses a local LLM (via
 
 ---
 
-## ⚙️ Basic Setup
+## ⚙️ Installation & Setup
 
 ```bash
 git clone https://github.com/Nabham92/rag-gwas-catalog.git
@@ -43,7 +43,6 @@ python3 -m venv venv
 source venv/bin/activate
 
 pip install -r requirements.txt
-
 
 # 1. Clean and preprocess GWAS data
 python app/clean_gwas.py
@@ -61,6 +60,7 @@ python app/build_index.py
 python main.py
 
 
+
 from app.rag_pipeline import full_pipeline
 
 question = "Which genes are associated with cardiovascular disease and expressed in the kidney?"
@@ -68,7 +68,8 @@ synthesis, docs, judgment = full_pipeline(question)
 
 print("SYNTHESIS:\n", synthesis)
 print("JUDGE:\n", judgment)
-```bash
+
+
 
 rag-gwas-catalog/
 ├── app/                  # Core scripts (build_index, clean_gwas, etc.)
@@ -77,5 +78,3 @@ rag-gwas-catalog/
 ├── main.py               # Example pipeline execution
 ├── requirements.txt      # Python dependencies
 └── README.md             # This file
-
-
