@@ -1,0 +1,55 @@
+# === Python ===
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.so
+*.log
+
+# === Virtual Environments ===
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+env/
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+
+# === VSCode / IDEs ===
+.vscode/
+.idea/
+
+# === Mac / System Files ===
+.DS_Store
+Thumbs.db
+
+# === LangChain / Vectorstore Index ===
+data/rag_gwas_index/
+*.chroma/
+*.sqlite3
+*.faiss
+
+# === Raw & Processed Data ===
+data/*.csv
+data/*.tsv
+data/*.json
+data/*.jsonl
+data/*.txt
+data/raw/
+data/processed/
+data/*.gz
+data/*.zip
+
+# === Models & Embeddings ===
+*.bin
+*.pt
+*.ckpt
+
+# === Secrets / API keys ===
+*.env
+*.secret
+*.key
+*.pem
+
