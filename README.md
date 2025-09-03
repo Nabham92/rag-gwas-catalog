@@ -68,7 +68,7 @@ synthesis, docs, judgment = full_pipeline(question)
 
 print("SYNTHESIS:\n", synthesis)
 print("JUDGE:\n", judgment)
-
+```bash
 
 rag-gwas-catalog/
 ├── app/                  # Core scripts (build_index, clean_gwas, etc.)
