@@ -1,4 +1,4 @@
-# 🧬 RAG GWAS Catalog
+#  RAG GWAS Catalog
 
 This project implements a Retrieval-Augmented Generation (RAG) pipeline to query the GWAS Catalog using natural language.
 
@@ -8,7 +8,7 @@ It combines structured GWAS data with PubMed abstracts and uses a local LLM (via
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Cleans and preprocesses GWAS Catalog data
 - Fetches abstracts from PubMed (via Biopython)
@@ -22,7 +22,7 @@ It combines structured GWAS data with PubMed abstracts and uses a local LLM (via
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 - Python 3.9+
 - [LangChain](https://github.com/langchain-ai/langchain)
@@ -33,7 +33,7 @@ It combines structured GWAS data with PubMed abstracts and uses a local LLM (via
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ```bash
 git clone https://github.com/Nabham92/rag-gwas-catalog.git
